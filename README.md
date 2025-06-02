@@ -1,5 +1,3 @@
-![](https://i.imgur.com/xG74tOh.png)
-
 # Desafio | Front-end - Módulo 1
 
 O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
@@ -139,8 +137,3 @@ Seções
 - Contato Section ![](https://i.imgur.com/VvO2m7w.png)
 
 - Footer ![](https://i.imgur.com/P06m37L.png)
-
-
-**LEMBRE-SE**: Feito é melhor do que perfeito, mas não faça mal feito!!!
-
-###### tags: `front-end` `módulo 1` `HTML` `CSS` `desafio`
