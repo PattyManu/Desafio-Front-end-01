@@ -1,222 +1,69 @@
-* {
-    box-sizing: border-box;
-
-    padding: 0;
-    margin: 0;
+.main-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    position: relative;
-
-    width: 100vw;
-    min-height: 100vw;
+.banner {
+  position: relative;
 }
 
-header {
-    width: 80%;
-    height: 80px;
+.banner>img {
+  width: 1110px;
+  height: 600px;
 }
 
-.comeco {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+.presentation-area {
+  width: 445px;
+  height: 357px;
 
-    width: 100%;
-    height: 50%;
-    margin-top: 25px;
+
+  background-color: #FAFAFA;
+
+  position: absolute;
+  top: 243px;
 }
 
-.comeco img {
-    width: 60px;
-    height: 35px;
+.presentation-area h1 {
+  margin: 56px 28px 54px 28px;
 }
 
-.inicio {
-    display: flex;
-    justify-content: space-between;
-
-    width: 400px;
-
-    text-transform: uppercase;
-    font-family: 'Public Sans';
+.presentation-area a {
+  width: 200px;
 }
 
-.inicio a {
-    font-size: 20px;
-    height: 40px;
-    width: auto;
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+
+  margin-top: 148px;
 }
 
-.acima {
-    color: #33323D;
+.about-me img {
+  width: 540px;
+  height: 600px;
 }
 
-.acima a:active {
-
-    color: rgba(95, 180, 162, 1);
-
+.about-me-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.largura {
-    display: flex;
-    flex-direction: column;
-
-    width: 80%;
+.about-me-details h2 {
+  margin-top: 50px;
 }
 
-.caixa {
-    display: flex;
-    position: relative;
-    align-items: flex-end;
+.about-me-details p {
+  margin-top: 28px;
 
-    width: 100%;
-    background-image: url("../../assets/home/image-homepage-hero.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
+  font-size: 16px;
 }
 
-.caixote {
-    display: flex;
-    flex-direction: column;
+.about-me-details .btn-white {
+  align-self: center;
 
-    color: black;
-    width: 50%;
-    height: 50%;
-
-    background-color: rgb(253, 253, 253);
-
-}
-
-.caixote h3 {
-    text-align: center;
-
-
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-
-
-    letter-spacing: -0.446429px;
-
-    color: #33323D;
-}
-
-.botao-um {
-    display: flex;
-    position: relative;
-    justify-content: end;
-    align-items: flex-end;
-
-    bottom: -135px;
-    width: 200px;
-    height: 50px;
-
-
-    background-color: rgba(32, 58, 76, 1);
-}
-
-.botao-um a {
-    color: white;
-}
-
-.meio {
-    width: 80%;
-    height: 80px;
-
-    display: flex;
-    position: relative;
-}
-
-.imagem-do-cara {
-    top: 230px;
-    position: absolute;
-    width: 60px;
-    height: 40px;
-}
-
-
-.texto {
-    display: flex;
-    padding: 45px 0;
-    position: relative;
-    flex-direction: column;
-    top: 230px;
-    left: 1230px;
-    max-width: 430px;
-    height: 10px;
-}
-
-.texto h1 {
-    font-size: 38px;
-}
-
-.texto p {
-    font-weight: 400px;
-    font-size: 28px;
-    margin-top: 50px;
-}
-
-.texto a {
-    margin-top: 120px;
-    align-self: center;
-    font-size: 14px;
-    color: #33323D;
-    border: #33323D solid 2px;
-    padding: 15px;
-}
-
-.end {
-    display: flex;
-    position: absolute;
-    bottom: -250px;
-}
-
-.end a {
-    padding: 15px;
-    position: relative;
-    left: 330px;
-    align-self: center;
-    font-size: 14px;
-    color: #33323D;
-    border: #33323D solid 2px;
-
-}
-
-.interesse {
-    position: relative;
-
-    height: 84px;
-    top: 50px;
-    right: 370px;
-
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
-}
-
-footer {
-    display: flex;
-    position: relative;
-    align-items: center;
-
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 1600px;
-
-    background-color: rgba(51, 50, 61, 1);
-}
-
-.finalzinho {
-    color: white;
+  width: 204px;
+  margin: 24px 0 46px 0;
 }
